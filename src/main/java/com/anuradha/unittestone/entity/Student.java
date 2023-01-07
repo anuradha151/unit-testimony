@@ -16,4 +16,10 @@ public class Student {
     private String name;
     private String email;
     private Gender gender;
+
+    public Student(String name, String email, Gender gender) {
+        this.name = name;
+        this.email = email;
+        this.gender = gender;
+    }
 }
