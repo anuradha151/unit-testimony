@@ -9,4 +9,10 @@ public class StudentDto {
     private String name;
     private String email;
     private Gender gender;
+
+    public StudentDto(String name, String email, Gender gender) {
+        this.name = name;
+        this.email = email;
+        this.gender = gender;
+    }
 }
